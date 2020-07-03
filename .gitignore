@@ -1,0 +1,25 @@
+# Build generated
+build/
+AllTrailsLunchApp.xcodeproj/xcuserdata/
+DerivedData
+Breakpoints_v2.xcbkptlist
+AllTrailsLunchApp.xcworkspace/xcuserdata/Eden.xcuserdatad/
+AllTrailsLunchApp.xcworkspace/xcuserdata/Eden.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+
+APIKeys.plist
+
+# Other settings
+*.xcscheme
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+.DS_Store
+xcuserdata
