@@ -1,0 +1,6 @@
+framework module Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests {
+  umbrella header "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,18 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF2FB0D242413C8EF4BD5479 /* Pods_AllTrailsLunchApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAA09FFBF2C79C406F7008D /* Pods_AllTrailsLunchApp.framework */; };
+		C5BCDAF956B74593EE98A242 /* Pods_AllTrailsLunchAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDF6FC6C62A0221539EFD91 /* Pods_AllTrailsLunchAppTests.framework */; };
+		C62A73FAF5B3A650D25C3D65 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 130E38DF8CC3F48A80FFE997 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */; };
+		F201EBE024B501C400F68F1B /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201EBDF24B501C400F68F1B /* ImageCache.swift */; };
+		F299C8A224B6888600F7A434 /* AddToListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299C8A124B6888600F7A434 /* AddToListVC.swift */; };
+		F299C8AB24B6938A00F7A434 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299C8AA24B6938A00F7A434 /* UIImageView+Extension.swift */; };
+		F299C8AD24B693E400F7A434 /* PlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F299C8AC24B693E400F7A434 /* PlaceCell.swift */; };
+		F2C2D35224AFBB9C0057EB9A /* Proxima-Nova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2F5AA2424AF043C0098473A /* Proxima-Nova-Bold.otf */; };
+		F2C2D35324AFBB9C0057EB9A /* Proxima-Nova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2F5AA2524AF043C0098473A /* Proxima-Nova-Regular.otf */; };
+		F2C2D35524AFBFD20057EB9A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2D35424AFBFD20057EB9A /* UIColor+Extension.swift */; };
+		F2C2D35724AFBFE10057EB9A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2D35624AFBFE10057EB9A /* UIFont+Extension.swift */; };
+		F2C2D35B24B0F2A30057EB9A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2D35A24B0F2A30057EB9A /* Error.swift */; };
+		F2C2D35D24B286EA0057EB9A /* PlaceMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C2D35C24B286EA0057EB9A /* PlaceMarker.swift */; };
 		F2E1880624AE9C8800A2D8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1880524AE9C8800A2D8D6 /* AppDelegate.swift */; };
 		F2E1880824AE9C8800A2D8D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1880724AE9C8800A2D8D6 /* SceneDelegate.swift */; };
-		F2E1880A24AE9C8800A2D8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1880924AE9C8800A2D8D6 /* ViewController.swift */; };
-		F2E1880D24AE9C8800A2D8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1880B24AE9C8800A2D8D6 /* Main.storyboard */; };
-		F2E1880F24AE9C8A00A2D8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1880E24AE9C8A00A2D8D6 /* Assets.xcassets */; };
 		F2E1881224AE9C8A00A2D8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1881024AE9C8A00A2D8D6 /* LaunchScreen.storyboard */; };
 		F2E1881D24AE9C8A00A2D8D6 /* AllTrailsLunchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1881C24AE9C8A00A2D8D6 /* AllTrailsLunchAppTests.swift */; };
 		F2E1882824AE9C8A00A2D8D6 /* AllTrailsLunchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1882724AE9C8A00A2D8D6 /* AllTrailsLunchAppUITests.swift */; };
+		F2E1883D24AE9CBF00A2D8D6 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1883524AE9CBE00A2D8D6 /* Place.swift */; };
+		F2E1883E24AE9CBF00A2D8D6 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2E1883624AE9CBE00A2D8D6 /* APIKeys.plist */; };
+		F2E1883F24AE9CBF00A2D8D6 /* GooglePlacesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1883724AE9CBF00A2D8D6 /* GooglePlacesClient.swift */; };
+		F2E1884024AE9CBF00A2D8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E1883824AE9CBF00A2D8D6 /* Main.storyboard */; };
+		F2E1884124AE9CBF00A2D8D6 /* MapAndListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1883924AE9CBF00A2D8D6 /* MapAndListVC.swift */; };
+		F2E1884224AE9CBF00A2D8D6 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1883A24AE9CBF00A2D8D6 /* Colors.xcassets */; };
+		F2E1884424AE9CBF00A2D8D6 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1883C24AE9CBF00A2D8D6 /* LocationTracker.swift */; };
+		F2E1884624AE9DE800A2D8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1884524AE9DE800A2D8D6 /* Assets.xcassets */; };
+		F2F5AA1F24AEA7DD0098473A /* GoogleMapsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5AA1E24AEA7DD0098473A /* GoogleMapsClient.swift */; };
+		F2F5AA2124AEAF8C0098473A /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5AA2024AEAF8C0098473A /* APIKeys.swift */; };
+		F2F5AA2324AF02C80098473A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5AA2224AF02C80098473A /* UIView+Extension.swift */; };
+		F2F5AA2824AFA27E0098473A /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5AA2724AFA27E0098473A /* UINavigationController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037D58FA5A8118AC0BB12F1C /* Pods-AllTrailsLunchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BDF6FC6C62A0221539EFD91 /* Pods_AllTrailsLunchAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		130E38DF8CC3F48A80FFE997 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA85654C142CBA86626BC6D /* Pods-AllTrailsLunchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchAppTests.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		50B17E32565838F6BDBB0B96 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80C7899A62F2F17FB54355C7 /* Pods-AllTrailsLunchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchApp.release.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp.release.xcconfig"; sourceTree = "<group>"; };
+		A29BF03C3EEE6692135B6CD3 /* Pods-AllTrailsLunchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchApp.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ADAA09FFBF2C79C406F7008D /* Pods_AllTrailsLunchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTrailsLunchApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F996F54C4958AE8C0D467 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F201EBDF24B501C400F68F1B /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		F299C8A124B6888600F7A434 /* AddToListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToListVC.swift; sourceTree = "<group>"; };
+		F299C8AA24B6938A00F7A434 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		F299C8AC24B693E400F7A434 /* PlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCell.swift; sourceTree = "<group>"; };
+		F2C2D35424AFBFD20057EB9A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		F2C2D35624AFBFE10057EB9A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		F2C2D35A24B0F2A30057EB9A /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F2C2D35C24B286EA0057EB9A /* PlaceMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarker.swift; sourceTree = "<group>"; };
 		F2E1880224AE9C8800A2D8D6 /* AllTrailsLunchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllTrailsLunchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E1880524AE9C8800A2D8D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2E1880724AE9C8800A2D8D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2E1880924AE9C8800A2D8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2E1880C24AE9C8800A2D8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2E1880E24AE9C8A00A2D8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E1881124AE9C8A00A2D8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2E1881324AE9C8A00A2D8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2E1881824AE9C8A00A2D8D6 /* AllTrailsLunchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsLunchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +85,20 @@
 		F2E1882324AE9C8A00A2D8D6 /* AllTrailsLunchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTrailsLunchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E1882724AE9C8A00A2D8D6 /* AllTrailsLunchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTrailsLunchAppUITests.swift; sourceTree = "<group>"; };
 		F2E1882924AE9C8A00A2D8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E1883524AE9CBE00A2D8D6 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		F2E1883624AE9CBE00A2D8D6 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		F2E1883724AE9CBF00A2D8D6 /* GooglePlacesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesClient.swift; sourceTree = "<group>"; };
+		F2E1883824AE9CBF00A2D8D6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F2E1883924AE9CBF00A2D8D6 /* MapAndListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAndListVC.swift; sourceTree = "<group>"; };
+		F2E1883A24AE9CBF00A2D8D6 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F2E1883C24AE9CBF00A2D8D6 /* LocationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
+		F2E1884524AE9DE800A2D8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2F5AA1E24AEA7DD0098473A /* GoogleMapsClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsClient.swift; sourceTree = "<group>"; };
+		F2F5AA2024AEAF8C0098473A /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		F2F5AA2224AF02C80098473A /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F2F5AA2424AF043C0098473A /* Proxima-Nova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Bold.otf"; sourceTree = "<group>"; };
+		F2F5AA2524AF043C0098473A /* Proxima-Nova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima-Nova-Regular.otf"; sourceTree = "<group>"; };
+		F2F5AA2724AFA27E0098473A /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2FB0D242413C8EF4BD5479 /* Pods_AllTrailsLunchApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5BCDAF956B74593EE98A242 /* Pods_AllTrailsLunchAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +122,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62A73FAF5B3A650D25C3D65 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054EA62BACC23A4CAAE43AF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A29BF03C3EEE6692135B6CD3 /* Pods-AllTrailsLunchApp.debug.xcconfig */,
+				80C7899A62F2F17FB54355C7 /* Pods-AllTrailsLunchApp.release.xcconfig */,
+				B95F996F54C4958AE8C0D467 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */,
+				50B17E32565838F6BDBB0B96 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */,
+				037D58FA5A8118AC0BB12F1C /* Pods-AllTrailsLunchAppTests.debug.xcconfig */,
+				1DA85654C142CBA86626BC6D /* Pods-AllTrailsLunchAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DE5CB46A4AE89478F9AF8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADAA09FFBF2C79C406F7008D /* Pods_AllTrailsLunchApp.framework */,
+				130E38DF8CC3F48A80FFE997 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */,
+				0BDF6FC6C62A0221539EFD91 /* Pods_AllTrailsLunchAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F299C8A324B6891500F7A434 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2D35C24B286EA0057EB9A /* PlaceMarker.swift */,
+				F2E1883524AE9CBE00A2D8D6 /* Place.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F299C8A824B6917A00F7A434 /* VCs and Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1883924AE9CBF00A2D8D6 /* MapAndListVC.swift */,
+				F299C8AC24B693E400F7A434 /* PlaceCell.swift */,
+				F299C8A124B6888600F7A434 /* AddToListVC.swift */,
+			);
+			path = "VCs and Cells";
+			sourceTree = "<group>";
+		};
+		F299C8A924B691C500F7A434 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F2E1883C24AE9CBF00A2D8D6 /* LocationTracker.swift */,
+				F201EBDF24B501C400F68F1B /* ImageCache.swift */,
+				F2C2D35A24B0F2A30057EB9A /* Error.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F2C2D35924AFC3B40057EB9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2C2D35424AFBFD20057EB9A /* UIColor+Extension.swift */,
+				F299C8AA24B6938A00F7A434 /* UIImageView+Extension.swift */,
+				F2C2D35624AFBFE10057EB9A /* UIFont+Extension.swift */,
+				F2F5AA2724AFA27E0098473A /* UINavigationController+Extension.swift */,
+				F2F5AA2224AF02C80098473A /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F2E187F924AE9C8800A2D8D6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +200,8 @@
 				F2E1881B24AE9C8A00A2D8D6 /* AllTrailsLunchAppTests */,
 				F2E1882624AE9C8A00A2D8D6 /* AllTrailsLunchAppUITests */,
 				F2E1880324AE9C8800A2D8D6 /* Products */,
+				054EA62BACC23A4CAAE43AF0 /* Pods */,
+				8DE5CB46A4AE89478F9AF8A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +218,21 @@
 		F2E1880424AE9C8800A2D8D6 /* AllTrailsLunchApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2E1881324AE9C8A00A2D8D6 /* Info.plist */,
+				F2E1883624AE9CBE00A2D8D6 /* APIKeys.plist */,
+				F2F5AA2024AEAF8C0098473A /* APIKeys.swift */,
 				F2E1880524AE9C8800A2D8D6 /* AppDelegate.swift */,
 				F2E1880724AE9C8800A2D8D6 /* SceneDelegate.swift */,
-				F2E1880924AE9C8800A2D8D6 /* ViewController.swift */,
-				F2E1880B24AE9C8800A2D8D6 /* Main.storyboard */,
-				F2E1880E24AE9C8A00A2D8D6 /* Assets.xcassets */,
+				F299C8A324B6891500F7A434 /* Model */,
+				F299C8A824B6917A00F7A434 /* VCs and Cells */,
+				F299C8A924B691C500F7A434 /* Util */,
+				F2F5AA2924AFA3140098473A /* Clients */,
+				F2C2D35924AFC3B40057EB9A /* Extensions */,
+				F2F5AA2624AF04480098473A /* Fonts */,
+				F2E1883824AE9CBF00A2D8D6 /* Main.storyboard */,
 				F2E1881024AE9C8A00A2D8D6 /* LaunchScreen.storyboard */,
-				F2E1881324AE9C8A00A2D8D6 /* Info.plist */,
+				F2E1884524AE9DE800A2D8D6 /* Assets.xcassets */,
+				F2E1883A24AE9CBF00A2D8D6 /* Colors.xcassets */,
 			);
 			path = AllTrailsLunchApp;
 			sourceTree = "<group>";
@@ -128,6 +255,24 @@
 			path = AllTrailsLunchAppUITests;
 			sourceTree = "<group>";
 		};
+		F2F5AA2624AF04480098473A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F2F5AA2424AF043C0098473A /* Proxima-Nova-Bold.otf */,
+				F2F5AA2524AF043C0098473A /* Proxima-Nova-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F2F5AA2924AFA3140098473A /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				F2F5AA1E24AEA7DD0098473A /* GoogleMapsClient.swift */,
+				F2E1883724AE9CBF00A2D8D6 /* GooglePlacesClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2E1882C24AE9C8A00A2D8D6 /* Build configuration list for PBXNativeTarget "AllTrailsLunchApp" */;
 			buildPhases = (
+				FBFECBA2AFC0E34986B4E9A6 /* [CP] Check Pods Manifest.lock */,
 				F2E187FE24AE9C8800A2D8D6 /* Sources */,
 				F2E187FF24AE9C8800A2D8D6 /* Frameworks */,
 				F2E1880024AE9C8800A2D8D6 /* Resources */,
+				EBA9AE1EA3A72CC184184FE9 /* [CP] Copy Pods Resources */,
+				C30FA1D51A40800C3E92D6A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2E1882F24AE9C8A00A2D8D6 /* Build configuration list for PBXNativeTarget "AllTrailsLunchAppTests" */;
 			buildPhases = (
+				FE77A1C937151B311156139C /* [CP] Check Pods Manifest.lock */,
 				F2E1881424AE9C8A00A2D8D6 /* Sources */,
 				F2E1881524AE9C8A00A2D8D6 /* Frameworks */,
 				F2E1881624AE9C8A00A2D8D6 /* Resources */,
@@ -170,9 +319,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2E1883224AE9C8A00A2D8D6 /* Build configuration list for PBXNativeTarget "AllTrailsLunchAppUITests" */;
 			buildPhases = (
+				D60FAE948F7BDFE7086F855B /* [CP] Check Pods Manifest.lock */,
 				F2E1881F24AE9C8A00A2D8D6 /* Sources */,
 				F2E1882024AE9C8A00A2D8D6 /* Frameworks */,
 				F2E1882124AE9C8A00A2D8D6 /* Resources */,
+				A8361433F238F10A8A7FB759 /* [CP] Copy Pods Resources */,
+				EBC3C5B450D1E0AB95ADD67E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,8 +385,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E1881224AE9C8A00A2D8D6 /* LaunchScreen.storyboard in Resources */,
-				F2E1880F24AE9C8A00A2D8D6 /* Assets.xcassets in Resources */,
-				F2E1880D24AE9C8800A2D8D6 /* Main.storyboard in Resources */,
+				F2C2D35224AFBB9C0057EB9A /* Proxima-Nova-Bold.otf in Resources */,
+				F2C2D35324AFBB9C0057EB9A /* Proxima-Nova-Regular.otf in Resources */,
+				F2E1884024AE9CBF00A2D8D6 /* Main.storyboard in Resources */,
+				F2E1883E24AE9CBF00A2D8D6 /* APIKeys.plist in Resources */,
+				F2E1884224AE9CBF00A2D8D6 /* Colors.xcassets in Resources */,
+				F2E1884624AE9DE800A2D8D6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +410,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8361433F238F10A8A7FB759 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C30FA1D51A40800C3E92D6A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60FAE948F7BDFE7086F855B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA9AE1EA3A72CC184184FE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC3C5B450D1E0AB95ADD67E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFECBA2AFC0E34986B4E9A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE77A1C937151B311156139C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AllTrailsLunchAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2E187FE24AE9C8800A2D8D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E1880A24AE9C8800A2D8D6 /* ViewController.swift in Sources */,
 				F2E1880624AE9C8800A2D8D6 /* AppDelegate.swift in Sources */,
+				F2C2D35D24B286EA0057EB9A /* PlaceMarker.swift in Sources */,
+				F201EBE024B501C400F68F1B /* ImageCache.swift in Sources */,
+				F2E1884424AE9CBF00A2D8D6 /* LocationTracker.swift in Sources */,
+				F2F5AA2124AEAF8C0098473A /* APIKeys.swift in Sources */,
+				F2C2D35B24B0F2A30057EB9A /* Error.swift in Sources */,
+				F2C2D35524AFBFD20057EB9A /* UIColor+Extension.swift in Sources */,
+				F2F5AA2324AF02C80098473A /* UIView+Extension.swift in Sources */,
+				F299C8A224B6888600F7A434 /* AddToListVC.swift in Sources */,
 				F2E1880824AE9C8800A2D8D6 /* SceneDelegate.swift in Sources */,
+				F2C2D35724AFBFE10057EB9A /* UIFont+Extension.swift in Sources */,
+				F2E1884124AE9CBF00A2D8D6 /* MapAndListVC.swift in Sources */,
+				F2E1883D24AE9CBF00A2D8D6 /* Place.swift in Sources */,
+				F2F5AA2824AFA27E0098473A /* UINavigationController+Extension.swift in Sources */,
+				F2F5AA1F24AEA7DD0098473A /* GoogleMapsClient.swift in Sources */,
+				F299C8AB24B6938A00F7A434 /* UIImageView+Extension.swift in Sources */,
+				F2E1883F24AE9CBF00A2D8D6 /* GooglePlacesClient.swift in Sources */,
+				F299C8AD24B693E400F7A434 /* PlaceCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +605,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2E1880B24AE9C8800A2D8D6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2E1880C24AE9C8800A2D8D6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2E1881024AE9C8A00A2D8D6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +732,7 @@
 		};
 		F2E1882D24AE9C8A00A2D8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29BF03C3EEE6692135B6CD3 /* Pods-AllTrailsLunchApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +751,7 @@
 		};
 		F2E1882E24AE9C8A00A2D8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C7899A62F2F17FB54355C7 /* Pods-AllTrailsLunchApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +770,7 @@
 		};
 		F2E1883024AE9C8A00A2D8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 037D58FA5A8118AC0BB12F1C /* Pods-AllTrailsLunchAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +793,7 @@
 		};
 		F2E1883124AE9C8A00A2D8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA85654C142CBA86626BC6D /* Pods-AllTrailsLunchAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +816,7 @@
 		};
 		F2E1883324AE9C8A00A2D8D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95F996F54C4958AE8C0D467 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +837,7 @@
 		};
 		F2E1883424AE9C8A00A2D8D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B17E32565838F6BDBB0B96 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

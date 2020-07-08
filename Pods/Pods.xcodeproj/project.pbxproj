@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		02FF720714418E81A494D97EAC70222E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D26A1EF25BA6D7D75A31E7E0E43A5C /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m */; };
+		251DA6F0E966CA2F1AA1F58C64FEE9A0 /* Pods-AllTrailsLunchApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 765CEADBAC3B698C98902093CEA8549D /* Pods-AllTrailsLunchApp-dummy.m */; };
+		2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6464CFB5BE16E23419D390CCF3519D1 /* PanContainerView.swift */; };
+		36730230F0155836AF793194F7BEF702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2446169FB6F3E19BA468F185AA106641 /* PanModalPresentationDelegate.swift */; };
+		4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2295ED447BCF52BBF10CBFBE776A711 /* DimmedView.swift */; };
+		45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340AF57EDB1C7CF6B75B7F102B2D8B9 /* PanModalHeight.swift */; };
+		49DFFA592C1E229A1AE76D35DF87513B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5BDD5FDECC8B8ABBF976B312866997AA /* Pods-AllTrailsLunchApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F82479E6000218E4B7DA81AF6AD8D28 /* Pods-AllTrailsLunchApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C90A33CC011BAD47799EA57D55F9D8 /* PanModalPresentationAnimator.swift */; };
+		5F8BB42411DC5EE2AFAAADBF28AEAEA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		60DB3244DB534C7C07CCF5B885D006FC /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF400CDBE4B8910C6A25C6A188DA354A /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBA54143EC15E35CB99F70A4A27C2B /* PanModalPresenter.swift */; };
+		80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04D60B4F7FBC4B442DD0879902E56D8 /* UIViewController+PanModalPresenter.swift */; };
+		8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DD1B543C72387C8BDAB5DA3108E7A3 /* PanModalPresentable+UIViewController.swift */; };
+		83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCCE0342AD9ADFD6E9E6EE9A2DBFE58 /* PanModalAnimator.swift */; };
+		93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A6867C728729EBF810322C686F79F5 /* PanModalPresentable+LayoutHelpers.swift */; };
+		B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60D2FD459563BB288ED6B11AF07BD46 /* PanModalPresentable.swift */; };
+		BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A92A7897B3488DB47FB4C224609CBD6 /* PanModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB00311A7AD3089B017D38EDC9C8E19F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E031DF576F91A8CACAC9953E55D8FDF /* PanModalPresentationController.swift */; };
+		D7B5DA5B79B3E7780D9EE6FEA3808F1E /* Pods-AllTrailsLunchAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D70745C4CC396495A4629286189BE9 /* Pods-AllTrailsLunchAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0CE620F12B41C9CAD7A8505D84EC76 /* PanModal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E954D493E913897F3CA0E84A241AA8EC /* Pods-AllTrailsLunchAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA3FD354A8EF39D1A6D35DA27AB0F22 /* Pods-AllTrailsLunchAppTests-dummy.m */; };
+		F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45313D2576541497C07AB7DE556F2E75 /* PanModal-dummy.m */; };
+		F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5882CD86D4AA526E57F602C2F84D3B0 /* PanModalPresentable+Defaults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09F3127CD97C1B4E687F22B8C0A2546E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16B149CC82594F15860A512FDBB6B9;
+			remoteInfo = PanModal;
+		};
+		17D6A3079A524414DFC7067C92D6EB39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD16B149CC82594F15860A512FDBB6B9;
+			remoteInfo = PanModal;
+		};
+		26CF1FF79C5D06E7287A01ED09D87702 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		A27C03850FC870396DFAA4A702B0D5D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		E677B2B3AD005C8689A74D2D0E4A13A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACB50FCD0FA0E20017E47D56B300B96;
+			remoteInfo = "Pods-AllTrailsLunchApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033F99F6676BBA98483F9C4649D49AE2 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07EC30035383C9A9D0CBA0EF98770EAE /* Pods-AllTrailsLunchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchApp.release.xcconfig"; sourceTree = "<group>"; };
+		08CBA54143EC15E35CB99F70A4A27C2B /* PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresenter.swift; path = PanModal/Presenter/PanModalPresenter.swift; sourceTree = "<group>"; };
+		09ACE29C0A1C8B1D8A135450E7CDDC41 /* Pods-AllTrailsLunchAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B9927A6187B881B23D07A22403B85F6 /* PanModal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PanModal.modulemap; sourceTree = "<group>"; };
+		0E031DF576F91A8CACAC9953E55D8FDF /* PanModalPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationController.swift; path = PanModal/Controller/PanModalPresentationController.swift; sourceTree = "<group>"; };
+		0ECF8E5B03CBBF4A057DB0513440428E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		161277983660BBB6908A635083708CFB /* PanModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PanModal.framework; path = PanModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AA9BF3785E6D6D7084A4C0FB2B3958 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.modulemap"; sourceTree = "<group>"; };
+		2446169FB6F3E19BA468F185AA106641 /* PanModalPresentationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationDelegate.swift; path = PanModal/Delegate/PanModalPresentationDelegate.swift; sourceTree = "<group>"; };
+		247BA3D898E239EE8BC12333664009DF /* PanModal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PanModal-Info.plist"; sourceTree = "<group>"; };
+		26ED58DF90B714B1D42AE0283A588D99 /* Pods-AllTrailsLunchApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchApp-Info.plist"; sourceTree = "<group>"; };
+		2F82479E6000218E4B7DA81AF6AD8D28 /* Pods-AllTrailsLunchApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllTrailsLunchApp-umbrella.h"; sourceTree = "<group>"; };
+		308803228D976BF504E116F53DAABDC0 /* Pods-AllTrailsLunchAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllTrailsLunchAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		31923D3D0243BF2A9D193CC6EE698154 /* Pods-AllTrailsLunchApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllTrailsLunchApp-resources.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33F77F0BADF7676B230B82BD0F622C49 /* Pods-AllTrailsLunchApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AllTrailsLunchApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		368870D1B93F9B07B9DFF2A282705171 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		45313D2576541497C07AB7DE556F2E75 /* PanModal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PanModal-dummy.m"; sourceTree = "<group>"; };
+		47D70745C4CC396495A4629286189BE9 /* Pods-AllTrailsLunchAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllTrailsLunchAppTests-umbrella.h"; sourceTree = "<group>"; };
+		4BCCE0342AD9ADFD6E9E6EE9A2DBFE58 /* PanModalAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalAnimator.swift; path = PanModal/Animator/PanModalAnimator.swift; sourceTree = "<group>"; };
+		5340AF57EDB1C7CF6B75B7F102B2D8B9 /* PanModalHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalHeight.swift; path = PanModal/Presentable/PanModalHeight.swift; sourceTree = "<group>"; };
+		548E5063AF6E43D0F2924DF8FBA41A46 /* Pods_AllTrailsLunchApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllTrailsLunchApp.framework; path = "Pods-AllTrailsLunchApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6867C728729EBF810322C686F79F5 /* PanModalPresentable+LayoutHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+LayoutHelpers.swift"; path = "PanModal/Presentable/PanModalPresentable+LayoutHelpers.swift"; sourceTree = "<group>"; };
+		5714D166CF56009A24BCF1BBD543B827 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5E59A82F77137C6C34EBA38B6E225F72 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		5FA3FD354A8EF39D1A6D35DA27AB0F22 /* Pods-AllTrailsLunchAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllTrailsLunchAppTests-dummy.m"; sourceTree = "<group>"; };
+		64F77E8DBF012FB7D60C4BE0124B951E /* Pods_AllTrailsLunchAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllTrailsLunchAppTests.framework; path = "Pods-AllTrailsLunchAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C90A33CC011BAD47799EA57D55F9D8 /* PanModalPresentationAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentationAnimator.swift; path = PanModal/Animator/PanModalPresentationAnimator.swift; sourceTree = "<group>"; };
+		6F0A3050963A657EBB8731D8022F3255 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		6FD6DC5CE38D0554BCCDA5D30273AE95 /* Pods-AllTrailsLunchAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllTrailsLunchAppTests.modulemap"; sourceTree = "<group>"; };
+		765CEADBAC3B698C98902093CEA8549D /* Pods-AllTrailsLunchApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllTrailsLunchApp-dummy.m"; sourceTree = "<group>"; };
+		7A1CF41524A3E8A3053EF156DA56F517 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A92A7897B3488DB47FB4C224609CBD6 /* PanModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PanModal.h; path = PanModal/PanModal.h; sourceTree = "<group>"; };
+		7B68867F8D77AFFCE4C11F9A0BABD979 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C88E79EC3C3904E67F820980904A190 /* Pods-AllTrailsLunchApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		84D26A1EF25BA6D7D75A31E7E0E43A5C /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m"; sourceTree = "<group>"; };
+		8627049B0114BCAE56AD8E8089EAF939 /* PanModal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PanModal.xcconfig; sourceTree = "<group>"; };
+		86DD1B543C72387C8BDAB5DA3108E7A3 /* PanModalPresentable+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+UIViewController.swift"; path = "PanModal/Presentable/PanModalPresentable+UIViewController.swift"; sourceTree = "<group>"; };
+		959C5B8D772731FF424D87B3B5787118 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DDCFC93FB74F21AB57FF4AF1BDE887D /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		9E0CE620F12B41C9CAD7A8505D84EC76 /* PanModal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-umbrella.h"; sourceTree = "<group>"; };
+		9F2A61C6AE62C063D092E3943902AC5D /* Pods-AllTrailsLunchAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchAppTests-Info.plist"; sourceTree = "<group>"; };
+		A1B6F987D7678B3E9D7E83ED572373EB /* Pods-AllTrailsLunchApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllTrailsLunchApp-frameworks.sh"; sourceTree = "<group>"; };
+		A450BE3356D3BD4D28433B33E9F4BA5D /* PanModal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PanModal-prefix.pch"; sourceTree = "<group>"; };
+		A642C307BAD946E52BA07D396E10E848 /* Pods-AllTrailsLunchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B382FAC16E1C287EE0678FD1A50B2E39 /* Pods-AllTrailsLunchAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B60D2FD459563BB288ED6B11AF07BD46 /* PanModalPresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanModalPresentable.swift; path = PanModal/Presentable/PanModalPresentable.swift; sourceTree = "<group>"; };
+		B6464CFB5BE16E23419D390CCF3519D1 /* PanContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PanContainerView.swift; path = PanModal/View/PanContainerView.swift; sourceTree = "<group>"; };
+		B8BB090D84580577138EE33EB28E2238 /* Pods-AllTrailsLunchApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AllTrailsLunchApp.modulemap"; sourceTree = "<group>"; };
+		C3E5E31C0BB23239EA1A2814E60329DF /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D59B505BE31F488C846A1943C60FEC1B /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-Info.plist"; sourceTree = "<group>"; };
+		E2295ED447BCF52BBF10CBFBE776A711 /* DimmedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DimmedView.swift; path = PanModal/View/DimmedView.swift; sourceTree = "<group>"; };
+		E5882CD86D4AA526E57F602C2F84D3B0 /* PanModalPresentable+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PanModalPresentable+Defaults.swift"; path = "PanModal/Presentable/PanModalPresentable+Defaults.swift"; sourceTree = "<group>"; };
+		EE7B69B2992CAE1E49C2E1CFAB42B51B /* Pods-AllTrailsLunchAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AllTrailsLunchAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F00F1256E9B2B059BC5062DB80A7B29E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources.sh"; sourceTree = "<group>"; };
+		F04D60B4F7FBC4B442DD0879902E56D8 /* UIViewController+PanModalPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PanModalPresenter.swift"; path = "PanModal/Presenter/UIViewController+PanModalPresenter.swift"; sourceTree = "<group>"; };
+		FF400CDBE4B8910C6A25C6A188DA354A /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EBD359994E341D6FCF889CFC50C4641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB00311A7AD3089B017D38EDC9C8E19F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3BCC674AF1CD81DBDD6396175BB108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36730230F0155836AF793194F7BEF702 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C80F4F6184402A34A302E1A0D4E2EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8BB42411DC5EE2AFAAADBF28AEAEA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F351F877CFAC0921839BCF5EF0FA95A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DFFA592C1E229A1AE76D35DF87513B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AA0C3FD619FE4C46CC3DE03ECA7ACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2911C2E79C1A44A46C4CFD4EC420B7D6 /* GoogleMaps */,
+				D3DA98ACF666442161441E171143743B /* PanModal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		128C923A0C91F87AC10E37B4D5D0D5F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F0A3050963A657EBB8731D8022F3255 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		1EE6B60D7F334967F51D5462D62669C7 /* Pods-AllTrailsLunchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FD6DC5CE38D0554BCCDA5D30273AE95 /* Pods-AllTrailsLunchAppTests.modulemap */,
+				308803228D976BF504E116F53DAABDC0 /* Pods-AllTrailsLunchAppTests-acknowledgements.markdown */,
+				EE7B69B2992CAE1E49C2E1CFAB42B51B /* Pods-AllTrailsLunchAppTests-acknowledgements.plist */,
+				5FA3FD354A8EF39D1A6D35DA27AB0F22 /* Pods-AllTrailsLunchAppTests-dummy.m */,
+				9F2A61C6AE62C063D092E3943902AC5D /* Pods-AllTrailsLunchAppTests-Info.plist */,
+				47D70745C4CC396495A4629286189BE9 /* Pods-AllTrailsLunchAppTests-umbrella.h */,
+				B382FAC16E1C287EE0678FD1A50B2E39 /* Pods-AllTrailsLunchAppTests.debug.xcconfig */,
+				09ACE29C0A1C8B1D8A135450E7CDDC41 /* Pods-AllTrailsLunchAppTests.release.xcconfig */,
+			);
+			name = "Pods-AllTrailsLunchAppTests";
+			path = "Target Support Files/Pods-AllTrailsLunchAppTests";
+			sourceTree = "<group>";
+		};
+		22FC91181D7E6C58437F6FF540AAAC86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E59A82F77137C6C34EBA38B6E225F72 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2911C2E79C1A44A46C4CFD4EC420B7D6 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				84AD1CAE4A82E002816B43D19A72E1B0 /* Base */,
+				7D591FAF29CDA8E2DEDDFD8E14BBC5CB /* Maps */,
+				128C923A0C91F87AC10E37B4D5D0D5F6 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3BA3C1F7CA46535F5273E86D02BD8C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				161277983660BBB6908A635083708CFB /* PanModal.framework */,
+				548E5063AF6E43D0F2924DF8FBA41A46 /* Pods_AllTrailsLunchApp.framework */,
+				7A1CF41524A3E8A3053EF156DA56F517 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */,
+				64F77E8DBF012FB7D60C4BE0124B951E /* Pods_AllTrailsLunchAppTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A1CCDEC36079A061DAFD35FACB4D3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B9927A6187B881B23D07A22403B85F6 /* PanModal.modulemap */,
+				8627049B0114BCAE56AD8E8089EAF939 /* PanModal.xcconfig */,
+				45313D2576541497C07AB7DE556F2E75 /* PanModal-dummy.m */,
+				247BA3D898E239EE8BC12333664009DF /* PanModal-Info.plist */,
+				A450BE3356D3BD4D28433B33E9F4BA5D /* PanModal-prefix.pch */,
+				9E0CE620F12B41C9CAD7A8505D84EC76 /* PanModal-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PanModal";
+			sourceTree = "<group>";
+		};
+		6F0E840B2D5DBEBAEE40ADEDD8A7367B /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22AA9BF3785E6D6D7084A4C0FB2B3958 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.modulemap */,
+				033F99F6676BBA98483F9C4649D49AE2 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.markdown */,
+				0ECF8E5B03CBBF4A057DB0513440428E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-acknowledgements.plist */,
+				84D26A1EF25BA6D7D75A31E7E0E43A5C /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m */,
+				5714D166CF56009A24BCF1BBD543B827 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-frameworks.sh */,
+				D59B505BE31F488C846A1943C60FEC1B /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-Info.plist */,
+				F00F1256E9B2B059BC5062DB80A7B29E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-resources.sh */,
+				FF400CDBE4B8910C6A25C6A188DA354A /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h */,
+				C3E5E31C0BB23239EA1A2814E60329DF /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */,
+				7B68867F8D77AFFCE4C11F9A0BABD979 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */,
+			);
+			name = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests";
+			path = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests";
+			sourceTree = "<group>";
+		};
+		7D591FAF29CDA8E2DEDDFD8E14BBC5CB /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				9139306ED232551919A6C08F471FF3BB /* Frameworks */,
+				22FC91181D7E6C58437F6FF540AAAC86 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		83809BFDA31C1F9D0049E0F7088DFD4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A63426B8F74C2C82FAB79B2A6DE47D9 /* Pods-AllTrailsLunchApp */,
+				6F0E840B2D5DBEBAEE40ADEDD8A7367B /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests */,
+				1EE6B60D7F334967F51D5462D62669C7 /* Pods-AllTrailsLunchAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		84AD1CAE4A82E002816B43D19A72E1B0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F6D549722E3B53218698FEBC4C606E09 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		8A63426B8F74C2C82FAB79B2A6DE47D9 /* Pods-AllTrailsLunchApp */ = {
+			isa = PBXGroup;
+			children = (
+				B8BB090D84580577138EE33EB28E2238 /* Pods-AllTrailsLunchApp.modulemap */,
+				33F77F0BADF7676B230B82BD0F622C49 /* Pods-AllTrailsLunchApp-acknowledgements.markdown */,
+				7C88E79EC3C3904E67F820980904A190 /* Pods-AllTrailsLunchApp-acknowledgements.plist */,
+				765CEADBAC3B698C98902093CEA8549D /* Pods-AllTrailsLunchApp-dummy.m */,
+				A1B6F987D7678B3E9D7E83ED572373EB /* Pods-AllTrailsLunchApp-frameworks.sh */,
+				26ED58DF90B714B1D42AE0283A588D99 /* Pods-AllTrailsLunchApp-Info.plist */,
+				31923D3D0243BF2A9D193CC6EE698154 /* Pods-AllTrailsLunchApp-resources.sh */,
+				2F82479E6000218E4B7DA81AF6AD8D28 /* Pods-AllTrailsLunchApp-umbrella.h */,
+				A642C307BAD946E52BA07D396E10E848 /* Pods-AllTrailsLunchApp.debug.xcconfig */,
+				07EC30035383C9A9D0CBA0EF98770EAE /* Pods-AllTrailsLunchApp.release.xcconfig */,
+			);
+			name = "Pods-AllTrailsLunchApp";
+			path = "Target Support Files/Pods-AllTrailsLunchApp";
+			sourceTree = "<group>";
+		};
+		9139306ED232551919A6C08F471FF3BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368870D1B93F9B07B9DFF2A282705171 /* GoogleMaps.framework */,
+				959C5B8D772731FF424D87B3B5787118 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				07AA0C3FD619FE4C46CC3DE03ECA7ACD /* Pods */,
+				3BA3C1F7CA46535F5273E86D02BD8C9D /* Products */,
+				83809BFDA31C1F9D0049E0F7088DFD4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3DA98ACF666442161441E171143743B /* PanModal */ = {
+			isa = PBXGroup;
+			children = (
+				E2295ED447BCF52BBF10CBFBE776A711 /* DimmedView.swift */,
+				B6464CFB5BE16E23419D390CCF3519D1 /* PanContainerView.swift */,
+				7A92A7897B3488DB47FB4C224609CBD6 /* PanModal.h */,
+				4BCCE0342AD9ADFD6E9E6EE9A2DBFE58 /* PanModalAnimator.swift */,
+				5340AF57EDB1C7CF6B75B7F102B2D8B9 /* PanModalHeight.swift */,
+				B60D2FD459563BB288ED6B11AF07BD46 /* PanModalPresentable.swift */,
+				E5882CD86D4AA526E57F602C2F84D3B0 /* PanModalPresentable+Defaults.swift */,
+				54A6867C728729EBF810322C686F79F5 /* PanModalPresentable+LayoutHelpers.swift */,
+				86DD1B543C72387C8BDAB5DA3108E7A3 /* PanModalPresentable+UIViewController.swift */,
+				69C90A33CC011BAD47799EA57D55F9D8 /* PanModalPresentationAnimator.swift */,
+				0E031DF576F91A8CACAC9953E55D8FDF /* PanModalPresentationController.swift */,
+				2446169FB6F3E19BA468F185AA106641 /* PanModalPresentationDelegate.swift */,
+				08CBA54143EC15E35CB99F70A4A27C2B /* PanModalPresenter.swift */,
+				F04D60B4F7FBC4B442DD0879902E56D8 /* UIViewController+PanModalPresenter.swift */,
+				59A1CCDEC36079A061DAFD35FACB4D3C /* Support Files */,
+			);
+			name = PanModal;
+			path = PanModal;
+			sourceTree = "<group>";
+		};
+		F6D549722E3B53218698FEBC4C606E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DDCFC93FB74F21AB57FF4AF1BDE887D /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5553B1399FEF466BEBE6E798A8533FCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B5DA5B79B3E7780D9EE6FEA3808F1E /* Pods-AllTrailsLunchAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8705DA2E5DC48F320712CA746DD1D402 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1A70CACD0B2ACA2A3FAA5EF320C15B /* PanModal-umbrella.h in Headers */,
+				BD030684DB491453C175AA7F99C5DE13 /* PanModal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3AB2C17467757204488B9D033D3D81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDD5FDECC8B8ABBF976B312866997AA /* Pods-AllTrailsLunchApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19E34E252041209AEECCC4C3C07C8F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DB3244DB534C7C07CCF5B885D006FC /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ACB50FCD0FA0E20017E47D56B300B96 /* Pods-AllTrailsLunchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FA0A250C70429448F4EC394CE6FC42A /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchApp" */;
+			buildPhases = (
+				BA3AB2C17467757204488B9D033D3D81 /* Headers */,
+				D853945F053A95FFE912E75904B7553A /* Sources */,
+				F351F877CFAC0921839BCF5EF0FA95A1 /* Frameworks */,
+				B9629D38A39F04362A13B526D6513165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79D53F4BDC6018422982E43CC3F86AE /* PBXTargetDependency */,
+				4BC7FA3DB6EF810D2A4F912480D06353 /* PBXTargetDependency */,
+			);
+			name = "Pods-AllTrailsLunchApp";
+			productName = "Pods-AllTrailsLunchApp";
+			productReference = 548E5063AF6E43D0F2924DF8FBA41A46 /* Pods_AllTrailsLunchApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD16B149CC82594F15860A512FDBB6B9 /* PanModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F38CE1990CDB1B358C6402136F744CE /* Build configuration list for PBXNativeTarget "PanModal" */;
+			buildPhases = (
+				8705DA2E5DC48F320712CA746DD1D402 /* Headers */,
+				6DF0C107B3EB308A3AD99D62CE074AAD /* Sources */,
+				7C3BCC674AF1CD81DBDD6396175BB108 /* Frameworks */,
+				BA98400A9FFE117837BA2A760AB6762C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanModal;
+			productName = PanModal;
+			productReference = 161277983660BBB6908A635083708CFB /* PanModal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4AAA3701870750F65FF4DD32398B2C8 /* Pods-AllTrailsLunchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225DCB103AB90618CBC11AA824483756 /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchAppTests" */;
+			buildPhases = (
+				5553B1399FEF466BEBE6E798A8533FCB /* Headers */,
+				63842AE555D2DF5B319790C5EC79721D /* Sources */,
+				4EBD359994E341D6FCF889CFC50C4641 /* Frameworks */,
+				A50735783371A8291FC435FFAA0C7410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918D50B51A374135AB1A66680D03E5C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-AllTrailsLunchAppTests";
+			productName = "Pods-AllTrailsLunchAppTests";
+			productReference = 64F77E8DBF012FB7D60C4BE0124B951E /* Pods_AllTrailsLunchAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1EDF4770600A4070E9F75AA1A243B0F /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64C807F88D7A7A60903DCAE2C508FC8 /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests" */;
+			buildPhases = (
+				E19E34E252041209AEECCC4C3C07C8F6 /* Headers */,
+				13325AEE6C72D6CC54350CD7BA7013B3 /* Sources */,
+				D6C80F4F6184402A34A302E1A0D4E2EF /* Frameworks */,
+				D3F4453654C9229B6557F5019F4EAB6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				698873853A2E9CF2449E908A130516EE /* PBXTargetDependency */,
+				B4B447FA977D34FBCF08F454E17281C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests";
+			productName = "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests";
+			productReference = 7A1CF41524A3E8A3053EF156DA56F517 /* Pods_AllTrailsLunchApp_AllTrailsLunchAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3BA3C1F7CA46535F5273E86D02BD8C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				AD16B149CC82594F15860A512FDBB6B9 /* PanModal */,
+				4ACB50FCD0FA0E20017E47D56B300B96 /* Pods-AllTrailsLunchApp */,
+				D1EDF4770600A4070E9F75AA1A243B0F /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests */,
+				B4AAA3701870750F65FF4DD32398B2C8 /* Pods-AllTrailsLunchAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50735783371A8291FC435FFAA0C7410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9629D38A39F04362A13B526D6513165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA98400A9FFE117837BA2A760AB6762C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F4453654C9229B6557F5019F4EAB6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13325AEE6C72D6CC54350CD7BA7013B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FF720714418E81A494D97EAC70222E /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63842AE555D2DF5B319790C5EC79721D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E954D493E913897F3CA0E84A241AA8EC /* Pods-AllTrailsLunchAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF0C107B3EB308A3AD99D62CE074AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4568EDD1163363300EAC0BA60D5CD7AB /* DimmedView.swift in Sources */,
+				2E429C92AE2DC78C28DA149D8A1B1514 /* PanContainerView.swift in Sources */,
+				F2021C557BAABC303255C299C768CBA8 /* PanModal-dummy.m in Sources */,
+				83444168FD31011F7217EFA2684AE936 /* PanModalAnimator.swift in Sources */,
+				45CF72ED3BCD237B440ACB19851A589A /* PanModalHeight.swift in Sources */,
+				F87BF668A74FAF0D05C057C5033DF52F /* PanModalPresentable+Defaults.swift in Sources */,
+				93C1556DDAED08BE604B2B685155F553 /* PanModalPresentable+LayoutHelpers.swift in Sources */,
+				8098DAF576BD71BF8514ECF921F96AA3 /* PanModalPresentable+UIViewController.swift in Sources */,
+				B46152373E6CBC6791AAE85205C33F98 /* PanModalPresentable.swift in Sources */,
+				5D55EB3EC082E70D15B02C607CF6440E /* PanModalPresentationAnimator.swift in Sources */,
+				D1F413745F02F75C0D42753DCB9D79BC /* PanModalPresentationController.swift in Sources */,
+				3DB448A3E9B64E934BC76FE0FC7621FE /* PanModalPresentationDelegate.swift in Sources */,
+				6A88FBA7BC5D3D69E315F9AE2E0DEE3B /* PanModalPresenter.swift in Sources */,
+				80212493C474B326F66876261FA57C65 /* UIViewController+PanModalPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853945F053A95FFE912E75904B7553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251DA6F0E966CA2F1AA1F58C64FEE9A0 /* Pods-AllTrailsLunchApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BC7FA3DB6EF810D2A4F912480D06353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PanModal;
+			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
+			targetProxy = 17D6A3079A524414DFC7067C92D6EB39 /* PBXContainerItemProxy */;
+		};
+		698873853A2E9CF2449E908A130516EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = A27C03850FC870396DFAA4A702B0D5D0 /* PBXContainerItemProxy */;
+		};
+		918D50B51A374135AB1A66680D03E5C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AllTrailsLunchApp";
+			target = 4ACB50FCD0FA0E20017E47D56B300B96 /* Pods-AllTrailsLunchApp */;
+			targetProxy = E677B2B3AD005C8689A74D2D0E4A13A7 /* PBXContainerItemProxy */;
+		};
+		A79D53F4BDC6018422982E43CC3F86AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 26CF1FF79C5D06E7287A01ED09D87702 /* PBXContainerItemProxy */;
+		};
+		B4B447FA977D34FBCF08F454E17281C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PanModal;
+			target = AD16B149CC82594F15860A512FDBB6B9 /* PanModal */;
+			targetProxy = 09F3127CD97C1B4E687F22B8C0A2546E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D1FB2CC781096DA9CED1086DB1144E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8627049B0114BCAE56AD8E8089EAF939 /* PanModal.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PanModal/PanModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PanModal/PanModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PanModal/PanModal.modulemap";
+				PRODUCT_MODULE_NAME = PanModal;
+				PRODUCT_NAME = PanModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		258F4AA21A45FCC3FBFFA0328CA0B446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09ACE29C0A1C8B1D8A135450E7CDDC41 /* Pods-AllTrailsLunchAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0A3050963A657EBB8731D8022F3255 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D855779EAF0FF678E0A4D411A4FEC3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07EC30035383C9A9D0CBA0EF98770EAE /* Pods-AllTrailsLunchApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AD7347CEBC106E66BBF5CAE645851FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E5E31C0BB23239EA1A2814E60329DF /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE73CC1A053F5210D209201C589096EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8627049B0114BCAE56AD8E8089EAF939 /* PanModal.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PanModal/PanModal-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PanModal/PanModal-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PanModal/PanModal.modulemap";
+				PRODUCT_MODULE_NAME = PanModal;
+				PRODUCT_NAME = PanModal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4196DDDA3AA0FF2545AF27B4003CB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B68867F8D77AFFCE4C11F9A0BABD979 /* Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests/Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0A3050963A657EBB8731D8022F3255 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED2A59798054ABB1553245BEC9E6BC01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A642C307BAD946E52BA07D396E10E848 /* Pods-AllTrailsLunchApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchApp/Pods-AllTrailsLunchApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F897BD8F607DB69C2804F6A0152A1F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B382FAC16E1C287EE0678FD1A50B2E39 /* Pods-AllTrailsLunchAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AllTrailsLunchAppTests/Pods-AllTrailsLunchAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225DCB103AB90618CBC11AA824483756 /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F897BD8F607DB69C2804F6A0152A1F73 /* Debug */,
+				258F4AA21A45FCC3FBFFA0328CA0B446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FA0A250C70429448F4EC394CE6FC42A /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2A59798054ABB1553245BEC9E6BC01 /* Debug */,
+				6D855779EAF0FF678E0A4D411A4FEC3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F38CE1990CDB1B358C6402136F744CE /* Build configuration list for PBXNativeTarget "PanModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE73CC1A053F5210D209201C589096EF /* Debug */,
+				0D1FB2CC781096DA9CED1086DB1144E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64C807F88D7A7A60903DCAE2C508FC8 /* Build configuration list for PBXNativeTarget "Pods-AllTrailsLunchApp-AllTrailsLunchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD7347CEBC106E66BBF5CAE645851FB /* Debug */,
+				C4196DDDA3AA0FF2545AF27B4003CB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

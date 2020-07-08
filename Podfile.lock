@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - PanModal (1.2.7)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - PanModal
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - PanModal
+
+SPEC CHECKSUMS:
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+
+PODFILE CHECKSUM: 9600b5954520bd5481c623e2a09274aff870ccd8
+
+COCOAPODS: 1.8.4
